@@ -8,7 +8,7 @@ export default apiInitializer("1.34.0", (api) => {
     </a>
     <span class="divid"></span>
     <a
-      class="openeubmc-logo lang-zh"
+      class="openubmc-logo lang-zh"
       href="https://www.openubmc.cn"
       target="_blank"
     >
