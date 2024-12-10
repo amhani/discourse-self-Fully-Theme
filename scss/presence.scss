@@ -1,0 +1,103 @@
+// hide default presence indicator
+.chat-enabled .sidebar-section-link-prefix.active .prefix-image {
+  box-shadow: none;
+  border-radius: var(--d-border-radius);
+}
+
+.chat-user-avatar.is-online .chat-user-avatar__container .avatar {
+  box-shadow: none;
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+// base for custom presence indicator
+.sidebar-section-link-prefix.image::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  display: inline;
+  position: absolute;
+  bottom: 3px;
+  left: calc(var(--d-sidebar-section-link-prefix-width) + 3px);
+  background-color: transparent;
+}
+
+.sidebar-section-link:hover .sidebar-section-link-prefix.image.active::before {
+  box-shadow: 0px 0px 0px 2px var(--sidebar-hover);
+}
+
+.sidebar-section-link {
+  &.sidebar-section-link--active {
+    .sidebar-section-link-prefix.image.active::before {
+      box-shadow: 0px 0px 0px 2px var(--tertiary);
+      border: 1px solid #ffff;
+      background-color: #ffff;
+    }
+    &:hover .sidebar-section-link-prefix.image.active::before {
+      box-shadow: 0px 0px 0px 2px var(--sidebar-hover);
+      background-color: var(--presence-online);
+      border-color: var(--presence-online);
+    }
+  }
+
+  .sidebar-section-link-prefix.image.active::before {
+    box-shadow: 0px 0px 0px 2px var(--sidebar-color);
+    border: 1px solid var(--presence-online);
+    background-color: var(--presence-online);
+  }
+  &:hover .sidebar-section-link-prefix.image.active::before {
+    box-shadow: 0px 0px 0px 2px var(--sidebar-hover);
+  }
+}
+
+.chat-user-avatar .chat-user-avatar__container::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  display: inline;
+  position: absolute;
+  bottom: 0px;
+  left: 21px;
+}
+
+.mobile-view
+  .channels-list
+  .chat-user-avatar
+  .chat-user-avatar__container::before {
+  left: 32px;
+}
+
+.chat-message .chat-user-avatar .chat-user-avatar__container::before {
+  left: 24px;
+}
+
+.chat-message
+  .chat-reply
+  .chat-user-avatar
+  .chat-user-avatar__container::before {
+  left: 16px;
+}
+
+.chat-message-thread-indicator
+  .chat-user-avatar
+  .chat-user-avatar__container::before {
+  left: 20px;
+}
+
+.chat-user-avatar.is-online .chat-user-avatar__container::before {
+  box-shadow: 0px 0px 0px 2px var(--secondary);
+  background-color: var(--presence-online);
+  border: 1px solid transparent;
+}
+
+.is-online .avatar {
+  box-shadow: 0px 0px 0px 0px;
+  border: 1px solid transparent;
+}
+
+.chat-user-avatar__container {
+  position: relative;
+}
