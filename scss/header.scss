@@ -62,9 +62,9 @@
         background-size: 100% 100%;
       }
       .pc-logo {
-        width: 86px;
-        height: 27px;
-        background-image: url(https://openeuler-website-beijing.obs.cn-north-4.myhuaweicloud.com/detail-banner/forum.png);
+        width: 60px;
+        height: 26px;
+        background-image: url(../logo/forum_light.png);
         @media screen and (max-width: 1000px) {
           display: none;
         }
@@ -83,10 +83,9 @@
         }
       }
       .openubmc-logo {
-        margin-top: 3px;
-        height: 18px;
-        width: 88px;
-        background-image: url(https://openubmc-discourse.test.osinfra.cn/uploads/default/original/1X/e9ad5153b731052da3cabd7b0135ed8f5d8fce48.svg);
+        height: 26px;
+        width: 108px;
+        background-image: url(../logo/light.svg);
         @media screen and (max-width: 420px) {
           width: 68px;
           height: 16px;
@@ -112,10 +111,10 @@
   .d-header {
     .home-logo-wrapper-outlet {
       .forum-logo {
-        background-image: url(https://openeuler-website-beijing.obs.cn-north-4.myhuaweicloud.com/detail-banner/forum_dark.png);
+        background-image: url(../logo//forum_dark.png);
       }
       .openubmc-logo {
-        background-image: url(https://openubmc-discourse.test.osinfra.cn/uploads/default/original/1X/e9ad5153b731052da3cabd7b0135ed8f5d8fce48.svg);
+        background-image: url(../logo/dark.svg);
       }
     }
   }
