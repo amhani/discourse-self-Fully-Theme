@@ -64,7 +64,7 @@
       .pc-logo {
         width: 60px;
         height: 26px;
-        background-image: url(../logo/forum_light.png);
+        background-image: url(https://github.com/HuangSJ-TY/openUBMC-Fully-Theme/blob/master/logo/forum_light.png?raw=true);
         @media screen and (max-width: 1000px) {
           display: none;
         }
@@ -85,7 +85,7 @@
       .openubmc-logo {
         height: 26px;
         width: 108px;
-        background-image: url(../logo/light.svg);
+        background-image: url(https://raw.githubusercontent.com/HuangSJ-TY/openUBMC-Fully-Theme/1750b339bb47053314065658724003974f0c24f8/logo/light.svg);
         @media screen and (max-width: 420px) {
           width: 68px;
           height: 16px;
@@ -111,10 +111,10 @@
   .d-header {
     .home-logo-wrapper-outlet {
       .forum-logo {
-        background-image: url(../logo//forum_dark.png);
+        background-image: url(https://github.com/HuangSJ-TY/openUBMC-Fully-Theme/blob/master/logo/forum_dark.png?raw=true);
       }
       .openubmc-logo {
-        background-image: url(../logo/dark.svg);
+        background-image: url(https://raw.githubusercontent.com/HuangSJ-TY/openUBMC-Fully-Theme/1750b339bb47053314065658724003974f0c24f8/logo/dark.svg);
       }
     }
   }
