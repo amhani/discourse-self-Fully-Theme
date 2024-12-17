@@ -64,7 +64,7 @@
       .pc-logo {
         width: 60px;
         height: 26px;
-        background-image: url(https://github.com/HuangSJ-TY/openUBMC-Fully-Theme/blob/master/logo/forum_light.png?raw=true);
+        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum_light.svg);
         @media screen and (max-width: 1000px) {
           display: none;
         }
@@ -73,7 +73,6 @@
         display: none;
         width: 23px;
         height: 24px;
-        background-image: url(https://forum.openeuler.org/uploads/default/original/1X/807e57835b97b8180921b7dd93e3d4530c446d17.png) !important;
         @media screen and (max-width: 1000px) {
           display: block;
         }
@@ -85,7 +84,7 @@
       .openubmc-logo {
         height: 26px;
         width: 108px;
-        background-image: url(https://raw.githubusercontent.com/HuangSJ-TY/openUBMC-Fully-Theme/1750b339bb47053314065658724003974f0c24f8/logo/light.svg);
+        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/light.svg);
         @media screen and (max-width: 420px) {
           width: 68px;
           height: 16px;
@@ -111,10 +110,10 @@
   .d-header {
     .home-logo-wrapper-outlet {
       .forum-logo {
-        background-image: url(https://github.com/HuangSJ-TY/openUBMC-Fully-Theme/blob/master/logo/forum_dark.png?raw=true);
+        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum_dark.png);
       }
       .openubmc-logo {
-        background-image: url(https://raw.githubusercontent.com/HuangSJ-TY/openUBMC-Fully-Theme/1750b339bb47053314065658724003974f0c24f8/logo/dark.svg);
+        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/dark.svg);
       }
     }
   }
