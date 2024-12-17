@@ -64,22 +64,22 @@
       .pc-logo {
         width: 60px;
         height: 26px;
-        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum_light.svg);
+        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum_light.png);
         @media screen and (max-width: 1000px) {
           display: none;
         }
       }
       .mo-logo {
         display: none;
-        width: 23px;
-        height: 24px;
-        @media screen and (max-width: 1000px) {
-          display: block;
-        }
-        @media screen and (max-width: 420px) {
-          width: 20px;
-          height: 21px;
-        }
+        // width: 23px;
+        // height: 24px;
+        // @media screen and (max-width: 1000px) {
+        //   display: block;
+        // }
+        // @media screen and (max-width: 420px) {
+        //   width: 20px;
+        //   height: 21px;
+        // }
       }
       .openubmc-logo {
         height: 26px;
@@ -96,7 +96,7 @@
         height: 16px;
         background-color: var(--primary);
         @media screen and (max-width: 1000px) {
-          margin: 0 8px;
+          display: none;
         }
       }
       img {
