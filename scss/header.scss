@@ -82,12 +82,15 @@
         // }
       }
       .openubmc-logo {
-        height: 26px;
+        height: 22px;
         width: 108px;
         background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/light.svg);
         @media screen and (max-width: 420px) {
           width: 68px;
           height: 16px;
+        }
+        @media screen and (max-width: 1000px) {
+          margin-left: 36px;
         }
       }
       .divid {
@@ -110,7 +113,7 @@
   .d-header {
     .home-logo-wrapper-outlet {
       .forum-logo {
-        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum_dark.png);
+        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum_dark.svg);
       }
       .openubmc-logo {
         background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/dark.svg);
