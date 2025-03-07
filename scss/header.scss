@@ -64,7 +64,7 @@
       .pc-logo {
         width: 60px;
         height: 26px;
-        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum_light.png);
+        background-image: url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_light.png);
         @media screen and (max-width: 1000px) {
           display: none;
         }
@@ -81,10 +81,10 @@
         //   height: 21px;
         // }
       }
-      .openubmc-logo {
-        height: 22px;
+      .website-logo {
+        height: 28px;
         width: 108px;
-        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/light.svg);
+        background-image: url(https://openfuyao-prod.obs.cn-north-4.myhuaweicloud.com/discourse/fuyao-light.png);
         @media screen and (max-width: 420px) {
           width: 68px;
           height: 16px;
@@ -119,10 +119,10 @@
   .d-header {
     .home-logo-wrapper-outlet {
       .forum-logo {
-        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/forum-dark.svg);
+        background-image: url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_dark.png);
       }
-      .openubmc-logo {
-        background-image: url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/dark.svg);
+      .website-logo {
+        background-image: url(https://openfuyao-prod.obs.cn-north-4.myhuaweicloud.com/discourse/fuyao-dark.png);
       }
     }
   }

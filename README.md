@@ -1,1 +1,1 @@
-# openUBMC-fully-theme
+# openFuYao-fully-theme
