@@ -1,1 +1,1 @@
-# openUBMC-fully-theme
+# openEuler-fully-theme

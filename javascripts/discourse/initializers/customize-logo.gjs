@@ -8,14 +8,14 @@ export default apiInitializer("1.34.0", (api) => {
     </a>
     <span class="divid"></span>
     <a
-      class="openubmc-logo lang-zh"
-      href="https://www.openubmc.cn"
+      class="website-logo lang-zh"
+      href="https://openeuler.test.osinfra.cn/zh/"
       target="_blank"
     >
     </a>
     <a
-      class="openubmc-logo lang-en"
-      href="https://www.openubmc.cn"
+      class="website-logo lang-en"
+      href="https://openeuler.test.osinfra.cn/en/"
       target="_blank"
     >
     </a>
