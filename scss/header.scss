@@ -81,10 +81,10 @@
         //   height: 21px;
         // }
       }
-      .openubmc-logo {
+      .website-logo {
         height: 28px;
         width: 108px;
-        background-image: url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/light.svg);
+        background-image: url(https://obs-mindspore-prod.obs.cn-north-4.myhuaweicloud.com/discourse/mindspore-logo-light.svg);
         @media screen and (max-width: 420px) {
           width: 68px;
           height: 16px;
@@ -107,12 +107,6 @@
       }
     }
   }
-
-  .panel {
-    .sign-up-button {
-      display: none;
-    }
-  }
 }
 
 .dark {
@@ -121,8 +115,8 @@
       .forum-logo {
         background-image: url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_dark.png);
       }
-      .openubmc-logo {
-        background-image: url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/dark.svg);
+      .website-logo {
+        background-image: url(https://obs-mindspore-prod.obs.cn-north-4.myhuaweicloud.com/discourse/mindspore-logo-dark.svg);
       }
     }
   }

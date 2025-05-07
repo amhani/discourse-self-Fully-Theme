@@ -1,1 +1,1 @@
-# openUBMC-fully-theme
+# mindspore-fully-theme

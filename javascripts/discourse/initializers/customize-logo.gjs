@@ -8,14 +8,14 @@ export default apiInitializer("1.34.0", (api) => {
     </a>
     <span class="divid"></span>
     <a
-      class="openubmc-logo lang-zh"
-      href="https://opengauss.test.osinfra.cn/zh/"
+      class="website-logo lang-zh"
+      href="https://mindspore-website.test.osinfra.cn/zh/"
       target="_blank"
     >
     </a>
     <a
-      class="openubmc-logo lang-en"
-      href="https://opengauss.test.osinfra.cn/en/"
+      class="website-logo lang-en"
+      href="https://mindspore-website.test.osinfra.cn/en/"
       target="_blank"
     >
     </a>
