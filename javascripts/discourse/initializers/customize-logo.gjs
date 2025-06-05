@@ -8,13 +8,13 @@ export default apiInitializer("1.34.0", (api) => {
     </a>
     <span class="divid"></span>
     <a
-      class="openubmc-logo lang-zh"
+      class="website-logo lang-zh"
       href="https://opengauss.test.osinfra.cn/zh/"
       target="_blank"
     >
     </a>
     <a
-      class="openubmc-logo lang-en"
+      class="website-logo lang-en"
       href="https://opengauss.test.osinfra.cn/en/"
       target="_blank"
     >

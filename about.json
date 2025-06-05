@@ -7,9 +7,9 @@
     "https://github.com/naidihr/discourse-category-banner-boxes.git",
     "https://github.com/jlcoo/header-locale-selector.git"
   ],
-  "name": "openUBMC Fully Theme",
+  "name": "openGauss Fully Theme",
   "color_schemes": {
-    "openUBMC-light": {
+    "openGauss-light": {
       "primary": "000000",
       "secondary": "f7f8fa",
       "tertiary": "7d32ea",

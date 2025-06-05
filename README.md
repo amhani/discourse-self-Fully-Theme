@@ -1,1 +1,1 @@
-# openUBMC-fully-theme
+# openGauss-fully-theme
